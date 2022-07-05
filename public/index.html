@@ -25,10 +25,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script type="text/jsx" src="src/someLib/dist/mapdata.js"></script>
+    <script type="text/jsx" src="src/someLib/dist/countrymap.js"></script>
+    <script>simplemaps_countrymap_mapdata.main_settings.auto_load = 'no';</script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
